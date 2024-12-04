@@ -206,19 +206,20 @@ console.log(age) */
 // }
 // console.log(result)
 
-const mark = +prompt('Сколько баллов получили за экзамен:')
-const project = +prompt('Сколько проектов выполнили:')
-let result
-if(mark > 90 || project > 10) {
-   result = 100
-}
-else if(mark > 75 && project >= 5) {
-   result = 90
-}
-else if(mark > 50 && project >= 2) {
-   result = 75
-}
-else {
-   result = 0
-}
-console.log(`Общий выпускной балл: ${result}!`)
+// const mark = +prompt('Сколько баллов получили за экзамен:')
+// const project = +prompt('Сколько проектов выполнили:')
+// let result
+// if(mark > 90 || project > 10) {
+//    result = 100
+// }
+// else if(mark > 75 && project >= 5) {
+//    result = 90
+// }
+// else if(mark > 50 && project >= 2) {
+//    result = 75
+// }
+// else {
+//    result = 0
+// }
+// console.log(`Общий выпускной балл: ${result}!`)
+
