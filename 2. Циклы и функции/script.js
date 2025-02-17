@@ -110,7 +110,7 @@
 
 
 function isMultiple(num1, num2) {
-   return (num1 % num2 ? `Число ${num1} кратно к числу ${num2}` : `Число ${num1} не кратно к числу ${num2}`)
+   return (num1 % num2 ? `Число ${num1} не кратно к числу ${num2}` : `Число ${num1} кратно к числу ${num2}`)
 }
 const res1 = isMultiple (10, 5)
 const res2 = isMultiple (9, 5)
