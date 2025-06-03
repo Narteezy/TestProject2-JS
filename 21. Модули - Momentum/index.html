@@ -6,29 +6,34 @@
   <link href="assets/favicon.ico" rel="shortcut icon" />
   <link rel="stylesheet" href="css/owfont-regular.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <title>momentum</title>\
+  <title>momentum</title>
   <script type="module" src="./script.js" defer></script>
 </head>
 <body>
   <header class="header">
     <div class="player">
       <div class="player-controls">
-        <button class="play-prev player-icon"></button>
-        <button class="play player-icon"></button>
-        <button class="play-next player-icon"></button>
+        <button id="playPrevBtn" class="play-prev player-icon"></button>
+        <button id="playBtn" class="play player-icon"></button>
+        <button id="playNextBtn" class="play-next player-icon"></button>
       </div>
-      <ul class="play-list"></ul>
+      <ul class="play-list">
+        <li class="play-item">Aqua Caelestis</li>
+        <li class="play-item">River Flows In You</li>
+        <li class="play-item">Summer Wind</li>
+        <li class="play-item">Ennio Morricone</li>
+      </ul>
     </div>
     <div class="weather">
-      <input type="text" class="city" />
-      <i class="weather-icon owf"></i>
-      <div class="weather-error"></div>
+      <input id="weatherCityInput" type="text" class="city" />
+      <img id="weatherIcon" src="" class="weather-icon owf"/>
+      <div id="weatherError" class="weather-error"></div>
       <div class="description-container">
-        <span class="temperature"></span>
-        <span class="weather-description"></span>
+        <span id="weatherTemp" class="temperature"></span>
+        <span id="weatherName" class="weather-description"></span>
       </div>
-      <div class="wind"></div>
-      <div class="humidity"></div>
+      <div id="windSpeed" class="wind"></div>
+      <div id="humidity" class="humidity"></div>
     </div>
   </header>
   <main class="main">
@@ -44,10 +49,10 @@
     </div>
   </main>
   <footer class="footer">
-    <button class="change-quote"></button>
+    <button id="changeJokeBtn" class="change-quote"></button>
     <div>
-      <div class="quote"></div>
-      <div class="author"></div>
+      <div id="jokeText" class="quote"></div>
+      <img id="jokeIcon" src="" alt="">
     </div>
   </footer>
   <script src="js/script.js"></script>

@@ -1,0 +1,9 @@
+.list {
+    background-color: antiquewhite;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+.hidden {
+    display: none;
+}

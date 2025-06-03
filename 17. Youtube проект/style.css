@@ -1,0 +1,23 @@
+.search-input {
+    max-width: 300px;
+    padding: 30px 0;
+}
+
+.other-videos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 30px 0;
+}
+
+.other-videos-container img {
+    width: 200px;
+    height: 112px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+.other-videos-container img:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.current-weather-container {
+    background-color: rgb(65, 152, 177);
+    color: white;
+    max-width: 370px;
+    padding: 15px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.weather {
+    min-width: 50px;
+    align-self: center;
+}
+
+.wind-speed {
+    display: flex;
+    justify-content: space-between;
+}
+
+.future-weather-container {
+    max-width: 370px;
+    margin-inline: auto;
+}
+
+.future-weather {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 2px solid rgb(65, 152, 177);
+    border-top: 0;
+    font-size: 18px;
+}
+
+.spinner-overlay {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.speed-text {
+    min-width: 100px;
+}
+
+.currentWindSpeed {
+    min-width: 40px;
+}
+
+.toast-text::first-letter {
+    text-transform: capitalize;
+}

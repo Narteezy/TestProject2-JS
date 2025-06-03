@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Indira",
+        "status": "online",
+        "course": "Frontend"
+    },
+    {
+        "name": "Guzel",
+        "status": "online",
+        "course": "Backend"
+    },
+    {
+        "name": "Nazgul",
+        "status": "online",
+        "course": "Project Management"
+    }
+]
